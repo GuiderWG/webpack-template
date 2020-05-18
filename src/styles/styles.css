@@ -1,0 +1,24 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "roboto.css";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #282c34;
+  color: #ffffff;
+}
+
+.start {
+  padding-top: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo2 {
+  background: url("../assets/ru.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 280px;
+  height: 200px;
+  margin: 0 auto;
+}

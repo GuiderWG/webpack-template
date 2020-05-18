@@ -1,3 +1,14 @@
+import * as $ from 'jquery'
+import 'popper.js'; // Required for BS4
+import 'bootstrap';
+import './styles/styles.css'
+
+// DOM ready
+$(function () {
+  $('.logo2').addClass('jq');
+});
+
+
 function getCount(str) {
   var vowelsCount = 0;
 
@@ -20,9 +31,9 @@ function friend(friends){
 
 //console.log(friend(["Ryan", "Kieran", "Mark"]));
 
-function findShort(s){
+function findShorts(s){
   return s.split(' ').reduce((acc, cur) => acc.length <= cur.length ? acc : cur).length;
 }
 
-console.log(findShort("2123bitcoin take over the world maybe who knows perhaps"));
+console.log(findShorts("2123bitcoin take over the world maybe who knows perhaps"));
 

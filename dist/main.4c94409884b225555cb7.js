@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/analyze.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/analyze.js":
-/*!************************!*\
-  !*** ./src/analyze.js ***!
-  \************************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(adsd);\n\n//# sourceURL=webpack:///./src/analyze.js?");
+eval("function getCount(str) {\r\n  var vowelsCount = 0;\r\n\r\n  var arr = str.split('');\r\n\r\n  var arrFilter = arr\r\n      .filter(\r\n          value => value === 'a' || value === 'e' || value === 'i' || value === 'o' || value === 'u'\r\n      );\r\n\r\n  vowelsCount = arrFilter.length;\r\n  return vowelsCount;\r\n}\r\n\r\n//console.log(getCount('abracadabra'));\r\n\r\nfunction friend(friends){\r\n  return friends.filter(val => val.length === 4);\r\n}\r\n\r\n//console.log(friend([\"Ryan\", \"Kieran\", \"Mark\"]));\r\n\r\nfunction findShort(s){\r\n  return s.split(' ').reduce((acc, cur) => acc.length <= cur.length ? acc : cur).length;\r\n}\r\n\r\nconsole.log(findShort(\"2123bitcoin take over the world maybe who knows perhaps\"));\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

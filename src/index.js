@@ -24,5 +24,5 @@ function findShort(s){
   return s.split(' ').reduce((acc, cur) => acc.length <= cur.length ? acc : cur).length;
 }
 
-console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+console.log(findShort("2123bitcoin take over the world maybe who knows perhaps"));
 
